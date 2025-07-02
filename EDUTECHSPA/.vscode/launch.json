@@ -1,0 +1,85 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparacrearcuentasApplication<microservicioparacrearcuentas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciocrear.microservicioparacrearcuentas.MicroservicioparacrearcuentasApplication",
+            "projectName": "microservicioparacrearcuentas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparainiciarcuentasApplication<microservicioparainiciarcuentas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicioinicio.microservicioparainiciarcuentas.MicroservicioparainiciarcuentasApplication",
+            "projectName": "microservicioparainiciarcuentas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50790 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicioparainiciarcuentas"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparajcrearcursosApplication<microservicioparajcrearcursos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciocursos.microservicioparajcrearcursos.MicroservicioparajcrearcursosApplication",
+            "projectName": "microservicioparajcrearcursos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparakasignarcursosApplication<microservicioparakasignarcursos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicioasignar.microservicioparakasignarcursos.MicroservicioparakasignarcursosApplication",
+            "projectName": "microservicioparakasignarcursos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparalcomprarcursosApplication<microservicioparalcomprarcursos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciocompra.microservicioparalcomprarcursos.MicroservicioparalcomprarcursosApplication",
+            "projectName": "microservicioparalcomprarcursos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparavalorarcursosApplication<microservicioparavalorarcursos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciovalorar.microservicioparavalorarcursos.MicroservicioparavalorarcursosApplication",
+            "projectName": "microservicioparavalorarcursos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparaxgenerarreportesApplication<microservicioparaxgenerarreportes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciogenerar.microservicioparaxgenerarreportes.MicroservicioparaxgenerarreportesApplication",
+            "projectName": "microservicioparaxgenerarreportes",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioparazresponderreportesApplication<microservicioparazresponderreportes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microserviciosoluciones.microservicioparazresponderreportes.MicroservicioparazresponderreportesApplication",
+            "projectName": "microservicioparazresponderreportes",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
